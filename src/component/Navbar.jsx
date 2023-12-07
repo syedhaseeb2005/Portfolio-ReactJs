@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi'
 // import { BsFillPersonLinesFill } from 'react-icons/bs'
-import Logo from '../assest/logo.png';
+// import Logo from '../assest/logo.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -14,33 +14,34 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-      <div>
-        <img src={Logo} style={{ width: '50%' }} alt="img" />
+      <div class="text-white font-bold p-3 bg-gray-800 rounded-md shadow-lg">
+        Syed Haseeb
       </div>
+
 
       {/* Menu */}
       <ul className='hidden md:flex space-x-6'>
-        <li>
+        <li className='bg-gray-800 rounded-md shadow-lg py-1 text-white font-bold'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className='bg-gray-800 rounded-md shadow-lg py-1 text-white font-bold'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className='bg-gray-800 rounded-md shadow-lg py-1 text-white font-bold'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className='bg-gray-800 rounded-md shadow-lg py-1 text-white font-bold'>
           <Link to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className='bg-gray-800 rounded-md shadow-lg py-1 text-white font-bold'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
