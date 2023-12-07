@@ -58,27 +58,27 @@ const Navbar = () => {
         className={`md:hidden absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center transform ${nav ? 'translate-x-0' : '-translate-x-full'
           } transition-transform ease-in-out duration-300 gap-3`}
       >
-        <li className='py-6 text-4xl bg-gray-800 rounded-md shadow-lg text-white font-bold'>
+        <li className='py-6 px-6  bg-gray-800 rounded-md shadow-lg text-white font-bold'>
           <Link onClick={handleNav} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl bg-gray-800 rounded-md shadow-lg  text-white font-bold'>
+        <li className='py-6 px-6 bg-gray-800 rounded-md shadow-lg  text-white font-bold'>
           <Link onClick={handleNav} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 px-6 text-4xl bg-gray-800 rounded-md shadow-lg text-white font-bold'>
+        <li className='py-6 px-7  bg-gray-800 rounded-md shadow-lg text-white font-bold'>
           <Link onClick={handleNav} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 px-6 text-4xl bg-gray-800 rounded-md shadow-lg  text-white font-bold'>
+        <li className='py-6 px-7  bg-gray-800 rounded-md shadow-lg  text-white font-bold'>
           <Link onClick={handleNav} to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className='py-6 px-1 text-4xl bg-gray-800 rounded-md shadow-lg text-white font-bold'>
+        <li className='py-6 px-5  bg-gray-800 rounded-md shadow-lg text-white font-bold'>
           <Link onClick={handleNav} to='contact' smooth={true} duration={500}>
             Contact
           </Link>
