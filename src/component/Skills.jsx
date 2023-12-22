@@ -8,7 +8,7 @@ import node from '../assest/node.png'
 import mongodb from '../assest/mongo.png'
 import firebase from '../assest/firebase.png'
 import github from '../assest/github.png'
-import aws from '../assest/aws.png'
+// import aws from '../assest/aws.png'
 
 
 const Skills = () => {
@@ -57,10 +57,10 @@ const Skills = () => {
                         <img className='w-20 mx-auto' src={github} alt="github" />
                         <p className='text-xl my-4 font-bold'>Github</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={aws} alt="aws" />
                         <p className='text-xl my-4 font-bold'>AWS</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
