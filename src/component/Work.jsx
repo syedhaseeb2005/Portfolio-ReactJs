@@ -16,7 +16,7 @@ const Work = () => {
         {
           title: 'Project 3',
           description: 'Attendance App with ReactJs Nodejs ExpressJs and Mongodb',
-          imageUrl: 'https://placekitten.com/300/202',
+          imageUrl: 'https://img.freepik.com/free-vector/appointment-booking-with-woman-smartphone_23-2148557484.jpg?size=626&ext=jpg&ga=GA1.1.140349720.1700509378&semt=ais',
         },
         {
           title: 'Project 4',
